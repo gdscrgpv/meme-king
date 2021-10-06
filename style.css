@@ -1,0 +1,7 @@
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 75px 25px;
+    background-color: antiquewhite;
+}
