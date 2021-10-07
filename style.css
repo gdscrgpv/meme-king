@@ -1,0 +1,6 @@
+.images img:hover{
+    transition: all .5s ease;
+    transform: scale(1.2);
+    cursor: pointer;
+    box-shadow: 10px 10px 15px gray;
+}
