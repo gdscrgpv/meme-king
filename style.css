@@ -1,0 +1,22 @@
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.images > img {
+  width: 100%;
+  margin: 10px 0;
+}
+
+@media (min-width: 600px) {
+  .images > img {
+    width: 47%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .images > img {
+    width: 30%;
+  }
+}
