@@ -4,6 +4,18 @@
   justify-content: space-around;
 }
 
+/* Hover Effect */
+.meme-img:hover{
+  transform: scale(1.2);
+  transition: scale .7s linear;
+  width: 30%;
+  height: 20%;
+  margin-left: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
 .images > img {
   width: 100%;
   margin: 10px 0;
