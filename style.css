@@ -20,3 +20,19 @@
     width: 30%;
   }
 }
+
+.nav {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav img {
+  margin-right: 10px;
+  height: 80%;
+}
