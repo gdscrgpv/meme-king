@@ -20,3 +20,10 @@
     width: 30%;
   }
 }
+.images img{
+  transition: .5s all ease;
+}
+.images img:hover{
+
+  transform: scale(0.9);
+}
