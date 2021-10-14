@@ -1,63 +1,82 @@
-.images {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+
+.images img:hover{
+    transition: all .5s ease;
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: 10px 10px 15px gray;
 }
 
-.images > img {
-	width: 100%;
-	margin: 10px 0;
+
+.images {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.images img {
+width: 50%;
+height: 30rem;
+margin: 20px 0;
+margin-left: 10px;
+margin-right:2rem ;
 }
 
 @media (min-width: 600px) {
-	.images > img {
-		width: 47%;
-	}
+.images > img {
+    width: 47%;
+}
 }
 
 @media (min-width: 1025px) {
-	.images > img {
-		width: 30%;
-	}
+
+.images > img {
+width: 30%;
+}
+
+
+.images > img {
+    width: 30%;
+}
 }
 
 footer div {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	padding: 75px 25px;
-	background-color: rgb(252, 221, 182);
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: 75px 25px;
+background-color: rgb(252, 221, 182);
 }
 
 body {
-	font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
-	margin: 0;
+font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+margin: 0;
 }
 
 .about-container {
-	display: flex;
-	flex-direction: column;
-	padding: 2% 20%;
-	background-color: whitesmoke;
+display: flex;
+flex-direction: column;
+padding: 2% 20%;
+background-color: whitesmoke;
 }
 
 .heading {
-	font-size: 50px;
+font-size: 50px;
 }
 
 .about-container h3 {
-	font-size: 25px;
-	font-weight: 450;
+font-size: 25px;
+font-weight: 450;
 }
 
 .github-link {
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 20px;
+text-decoration: none;
+font-weight: bold;
+font-size: 20px;
 }
 
 .images > img {
-	width: 30%;
+  width: 100%;
+  margin: 10px 0;
 }
 
 header .nav {
@@ -82,4 +101,16 @@ header .nav {
 
 main {
   margin-top: 100px;
+}
+@media (min-width: 600px) {
+  .images > img {
+    width: 47%;
+  }
+}
+
+@media (min-width: 1025px) {
+  .images > img {
+    width: 30%;
+  }
+
 }
