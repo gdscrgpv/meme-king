@@ -50,18 +50,10 @@ width: 100%;
 
 footer div {
 display: flex;
-flex-wrap: wrap;
-
 align-items: center;
 justify-content: space-around;
 padding: 75px 25px;
 background-color: rgb(252, 221, 182);
-}
-.footer_img a img{
-  width: 100%;
-} 
-.footer_img a {
-  width: 16%;
 }
 
 body {
