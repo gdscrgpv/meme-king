@@ -1,4 +1,10 @@
 
+.demo {
+  margin-left: 25px;
+  color: red;
+}
+
+
 .images img:hover{
     transition: all .5s ease;
     transform: scale(1.1);
@@ -9,6 +15,7 @@
    color: red;
    text-align: center;
  }
+
 
 .images {
 display: flex;
@@ -116,4 +123,3 @@ main {
     width: 30%;
   }
 
-}
