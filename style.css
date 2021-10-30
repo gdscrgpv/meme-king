@@ -64,6 +64,7 @@ background-color: rgb(252, 221, 182);
   width: 16%;
 }
 
+
 body {
 font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
 margin: 0;
@@ -119,6 +120,17 @@ header .nav {
 main {
   margin-top: 100px;
 }
+
+@media (max-width: 1025px){
+  .footer_img a {
+    width: 30%;
+  }
+}
+@media (max-width: 600px){
+  .footer_img a {
+    width: 40%;
+  }
+}
 @media (min-width: 600px) {
   .images > img {
     width: 47%;
@@ -133,16 +145,7 @@ main {
   
 
 }
-@media (max-width: 1025px){
-  .footer_img a {
-    width: 30%;
-  }
-}
-@media (max-width: 600px){
-  .footer_img a {
-    width: 40%;
-  }
-}
+
 nav{
   margin-top: 60px;
 }
